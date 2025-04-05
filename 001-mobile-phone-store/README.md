@@ -1,18 +1,29 @@
 # Front-End Test (⚛️ React): Compra de Móviles 📱✨
 
-## Descripción del Proyecto 🚀
+## Índice
+- [🚀 Descripción del Proyecto](#-descripción-del-proyecto)
+  - [PLP (Product List Page)](#plp-product-list-page)
+  - [PDP (Product Details Page)](#pdp-product-details-page)
+- [⚙️ Requisitos Técnicos](#%EF%B8%8F-requisitos-técnicos)
+- [🌐 Integración con API](#-integración-con-api)
+- [🎨 Componentes y Diseño](#-componentes-y-diseño)
+- [🚀 Instrucciones de Ejecución](#-instrucciones-de-ejecución)
+- [ℹ️ Información sobre el ejercició resuelto](#ℹ️-información-sobre-el-ejercició-resuelto)
+
+## 🚀 Descripción del Proyecto
 
 Desarrolla una **Single Page Application (SPA)** con dos vistas principales:
 
-- **PLP (Product List Page)**:
-  - Muestra un listado de productos obtenidos del API.
-  - Incluye búsqueda en tiempo real (filtrado por marca y modelo).
-  - Diseño adaptable con máximo 4 productos por fila.
-- **PDP (Product Details Page)**:
-  - Detalla el producto en dos columnas: imagen y detalles/acciones.
-  - Opción para volver a la lista de productos.
+### PLP (Product List Page)
+- Muestra un listado de productos obtenidos del API.
+- Incluye búsqueda en tiempo real (filtrado por marca y modelo).
+- Diseño adaptable con máximo 4 productos por fila.
 
-## Requisitos Técnicos ⚙️
+### PDP (Product Details Page)
+- Detalla el producto en dos columnas: imagen y detalles/acciones.
+- Opción para volver a la lista de productos.
+
+## ⚙️ Requisitos Técnicos
 
 - **Framework**: Utiliza **React** o **Preact** (preferentemente sin TypeScript).
 - **JavaScript**: ES6.
@@ -24,7 +35,7 @@ Desarrolla una **Single Page Application (SPA)** con dos vistas principales:
   - `npm test`: Ejecución de tests.
   - `npm run lint`: Comprobación de código.
 
-## Integración con API 🌐
+## 🌐 Integración con API
 
 Usa el siguiente dominio y endpoints:
 
@@ -44,7 +55,7 @@ Usa el siguiente dominio y endpoints:
 **Importante:**  
 Implementa un sistema de cache en el cliente con una expiración de **1 hora** para evitar llamadas repetitivas al API.
 
-## Componentes y Diseño 🎨
+##  🎨 Componentes y Diseño
 
 - **Header**:
   - Muestra el título o ícono (enlace a la vista principal).
@@ -60,7 +71,7 @@ Implementa un sistema de cache en el cliente con una expiración de **1 hora** p
   - Distribuye la vista en dos columnas: imagen y detalles.
   - Incluye selectores para opciones (almacenamiento y color) y botón para añadir al carrito.
 
-## Instrucciones de Ejecución 🚀
+## 🚀 Instrucciones de Ejecución
 
 1. **Clona el repositorio.**
 2. **Instala las dependencias:**  
@@ -74,13 +85,12 @@ Implementa un sistema de cache en el cliente con una expiración de **1 hora** p
 6. **Revisa el código (Lint):**  
    `npm run lint`
 
-# Información sobre el ejercició resuelto
+# ℹ️ Información sobre el ejercició resuelto
 
 **🟢 Node: v20.12.0**  
 **⚛️ React: v19.0.0**  
 **🧭 React Router: v7.0.0**  
 **🧹 Lint: [neostandard](https://github.com/neostandard/neostandard)**  
-
 
 **📜 Scripts**
 - START - Modo desarrollo - `npm run dev`
