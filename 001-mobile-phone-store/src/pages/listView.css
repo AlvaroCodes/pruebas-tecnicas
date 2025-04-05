@@ -1,0 +1,48 @@
+.listView-container-item {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  align-items: center; 
+}
+
+/* Para pantallas medianas */
+@media (max-width: 1024px) {
+  .listView-container-item {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Para pantallas pequeñas */
+@media (max-width: 768px) {
+  .listView-container-item {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Para pantallas muy pequeñas */
+@media (max-width: 480px) {
+  .listView-container-item {
+    grid-template-columns: 1fr;
+  }
+}
+
+.listView-container-search {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 20px;
+}
+
+.listView {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: rgb(210, 254, 210);
+}
+
+.listView-container-search input {
+  width: 300px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #fb5757;
+  background-color: #ffb1b1;
+  color: white;
+}

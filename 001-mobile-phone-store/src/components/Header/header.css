@@ -1,0 +1,46 @@
+.header {
+    background-color: rgb(207, 231, 252);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.header-nav-content {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.header-logo-link {
+    display: flex;
+    width: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-nav-content .breadcrumbs {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.header-nav-content .breadcrumbs ol {
+    padding: 10px;
+}
+
+.header-cart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.header-cart span {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
